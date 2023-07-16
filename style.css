@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 8vh;
+  width: 100%;
+}
+
+body {
+  background-color: #2cb3f3;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+section {
+  background-color: white;
+  width: 105vh;
+  height: 68vh;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rosto {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe1c9;
+  width: 81%;
+  height: 57vh;
+  border-radius: 100%;
+}
+
+.olho1 {
+  position: relative;
+  width: 4vw;
+  bottom: 40px;
+  right: 60px;
+}
+
+.olho2 {
+  width: 4vw;
+  position: relative;
+  bottom: 40px;
+  left: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 10px;
+}
+
+input {
+  width: 45vh;
+  height: 7vh;
+  border: 2px solid;
+  border-radius: 3px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1px;
+  top: 30px;
+}
+
+.button {
+  background-color: #55a603;
+  color: #b2f272;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  height: 7vh;
+  width: 24vh;
+  box-shadow: 0px 3px 3px 0px black;
+}
